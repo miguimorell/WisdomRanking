@@ -65,8 +65,7 @@ class RankingProvider extends ChangeNotifier {
       _distribution = await _populationService.loadAgeDistribution();
       _totalPopulation = _distribution!.totalPopulation;
       if (_distribution!.birthsPerYear != null) {
-        birthsPerSecond =
-            _distribution!.birthsPerYear! / _secondsPerYear;
+        birthsPerSecond = _distribution!.birthsPerYear! / _secondsPerYear;
       }
       if (_distribution!.totalDeathsPerYear > 0) {
         deathsPerSecond = _distribution!.totalDeathsPerYear / _secondsPerYear;

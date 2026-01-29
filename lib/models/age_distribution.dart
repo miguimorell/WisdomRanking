@@ -30,10 +30,14 @@ class AgeDistribution {
   final double? birthsPerYear;
 
   double get totalPopulation =>
-      buckets.fold(0, (sum, bucket) => sum + bucket.count);
+      buckets.fold<double>(0.0, (sum, bucket) => sum + bucket.count);
 
   double get totalDeathsPerYear =>
-      deathsByAge?.fold(0, (sum, bucket) => sum + bucket.deathsPerYear) ?? 0;
+      deathsByAge?.fold<double>(
+        0.0,
+        (sum, bucket) => sum + bucket.deathsPerYear,
+      ) ??
+      0.0;
 
   factory AgeDistribution.fromJson(Map<String, dynamic> json) {
     final bucketsJson = json['buckets'] as List<dynamic>;
@@ -44,8 +48,9 @@ class AgeDistribution {
     final deathsJson = json['deaths_by_age'] as List<dynamic>?;
     final deathsByAge =
         deathsJson
-            ?.map((entry) =>
-                DeathBucket.fromJson(entry as Map<String, dynamic>))
+            ?.map(
+              (entry) => DeathBucket.fromJson(entry as Map<String, dynamic>),
+            )
             .toList();
     final birthsPerYear = (json['births_per_year'] as num?)?.toDouble();
     return AgeDistribution(

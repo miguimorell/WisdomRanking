@@ -1,50 +1,87 @@
 {
   "updated_at": "2026-01-29",
-  "births_per_year": 135000000,
   "buckets": [
-    {"min": 0, "max": 4, "count": 650000000},
-    {"min": 5, "max": 9, "count": 650000000},
-    {"min": 10, "max": 14, "count": 650000000},
-    {"min": 15, "max": 19, "count": 640000000},
-    {"min": 20, "max": 24, "count": 620000000},
-    {"min": 25, "max": 29, "count": 610000000},
-    {"min": 30, "max": 34, "count": 590000000},
-    {"min": 35, "max": 39, "count": 560000000},
-    {"min": 40, "max": 44, "count": 520000000},
-    {"min": 45, "max": 49, "count": 470000000},
-    {"min": 50, "max": 54, "count": 420000000},
-    {"min": 55, "max": 59, "count": 360000000},
-    {"min": 60, "max": 64, "count": 300000000},
-    {"min": 65, "max": 69, "count": 240000000},
-    {"min": 70, "max": 74, "count": 180000000},
-    {"min": 75, "max": 79, "count": 120000000},
-    {"min": 80, "max": 84, "count": 70000000},
-    {"min": 85, "max": 89, "count": 35000000},
-    {"min": 90, "max": 94, "count": 15000000},
-    {"min": 95, "max": 99, "count": 5000000},
-    {"min": 100, "max": 110, "count": 800000}
+    {
+      "min": 0,
+      "max": 4,
+      "count": 654028322
+    },
+    {
+      "min": 5,
+      "max": 14,
+      "count": 1370554431
+    },
+    {
+      "min": 15,
+      "max": 24,
+      "count": 1258386228
+    },
+    {
+      "min": 25,
+      "max": 64,
+      "count": 3999849869
+    },
+    {
+      "min": 65,
+      "max": 110,
+      "count": 808366312
+    }
   ],
   "deaths_by_age": [
-    {"min": 0, "max": 4, "deaths_per_year": 4000000},
-    {"min": 5, "max": 9, "deaths_per_year": 500000},
-    {"min": 10, "max": 14, "deaths_per_year": 400000},
-    {"min": 15, "max": 19, "deaths_per_year": 500000},
-    {"min": 20, "max": 24, "deaths_per_year": 600000},
-    {"min": 25, "max": 29, "deaths_per_year": 700000},
-    {"min": 30, "max": 34, "deaths_per_year": 800000},
-    {"min": 35, "max": 39, "deaths_per_year": 900000},
-    {"min": 40, "max": 44, "deaths_per_year": 1100000},
-    {"min": 45, "max": 49, "deaths_per_year": 1500000},
-    {"min": 50, "max": 54, "deaths_per_year": 2000000},
-    {"min": 55, "max": 59, "deaths_per_year": 2800000},
-    {"min": 60, "max": 64, "deaths_per_year": 3800000},
-    {"min": 65, "max": 69, "deaths_per_year": 5200000},
-    {"min": 70, "max": 74, "deaths_per_year": 7000000},
-    {"min": 75, "max": 79, "deaths_per_year": 9000000},
-    {"min": 80, "max": 84, "deaths_per_year": 10500000},
-    {"min": 85, "max": 89, "deaths_per_year": 9500000},
-    {"min": 90, "max": 94, "deaths_per_year": 7000000},
-    {"min": 95, "max": 99, "deaths_per_year": 4000000},
-    {"min": 100, "max": 110, "deaths_per_year": 1200000}
+    {
+      "min": 0,
+      "max": 9,
+      "deaths_per_year": 5525091
+    },
+    {
+      "min": 10,
+      "max": 19,
+      "deaths_per_year": 1126899
+    },
+    {
+      "min": 20,
+      "max": 29,
+      "deaths_per_year": 1791513
+    },
+    {
+      "min": 30,
+      "max": 39,
+      "deaths_per_year": 2268561
+    },
+    {
+      "min": 40,
+      "max": 49,
+      "deaths_per_year": 3360232
+    },
+    {
+      "min": 50,
+      "max": 59,
+      "deaths_per_year": 6220012
+    },
+    {
+      "min": 60,
+      "max": 69,
+      "deaths_per_year": 10232116
+    },
+    {
+      "min": 70,
+      "max": 79,
+      "deaths_per_year": 13168804
+    },
+    {
+      "min": 80,
+      "max": 89,
+      "deaths_per_year": 12765292
+    },
+    {
+      "min": 90,
+      "max": 99,
+      "deaths_per_year": 4949728
+    },
+    {
+      "min": 100,
+      "max": 110,
+      "deaths_per_year": 243360
+    }
   ]
 }
