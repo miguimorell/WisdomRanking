@@ -9,6 +9,7 @@ Entrada (ya disponible)
 
 Salida
 - assets/data/age_distribution.json
+- assets/data/age_distribution_death_groups.json
 
 Uso
 - Ejecuta build_age_distribution.py con Python 3.
@@ -16,3 +17,5 @@ Uso
 
 Notas
 - Si existe el CSV de muertes, añade deaths_by_age al JSON.
+- build_age_distribution_death_groups.py genera población en los mismos rangos
+	que deaths_by_age (aproximación uniforme dentro de cada grupo grande).
